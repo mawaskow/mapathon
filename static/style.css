@@ -1,0 +1,188 @@
+/* text */
+h4, h5, p{
+    color:  #1a1a1a;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin: 0 0 0 0;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+p.text-descr, label.text-descr{
+    font-size: 16px;
+    color:  #747474;
+}
+
+/* navbar */ 
+a.navbar-brand{
+    font-size: 25px;
+    font-weight: 500;
+    color: #1a1a1a;
+}
+
+nav.navbar.bg-body-tertiary{
+    background-color: white;
+}
+
+.navbar{
+    padding: 0px;
+}
+
+/* general */
+
+div.textchunk{
+    padding: 20px 20px 20px 20px;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+/* MAP */
+#map{
+    height:100%;
+    width:100%;
+    position:fixed;
+}
+
+.map {
+    width: 100%;
+    height: 400px;
+}
+
+.ol-popup {
+position: absolute;
+background-color: white;
+box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+padding: 15px;
+border-radius: 10px;
+border: 1px solid #cccccc;
+bottom: 12px;
+left: -50px;
+min-width: 280px;
+}
+.ol-popup:after, .ol-popup:before {
+top: 100%;
+border: solid transparent;
+content: " ";
+height: 0;
+width: 0;
+position: absolute;
+pointer-events: none;
+}
+.ol-popup:after {
+border-top-color: white;
+border-width: 10px;
+left: 48px;
+margin-left: -10px;
+}
+.ol-popup:before {
+border-top-color: #cccccc;
+border-width: 11px;
+left: 48px;
+margin-left: -11px;
+}
+.ol-popup-closer {
+text-decoration: none;
+position: absolute;
+top: 2px;
+right: 8px;
+}
+.ol-popup-closer:after {
+content: "✖";
+}
+#popup a:link{
+text-decoration: none;
+}
+
+.text-layer-pill{
+    color: #000;
+    background-color: #72CAC3;
+}
+
+/*   */
+span.Economy{
+    color: #000;
+    background-color: #cca7ba;
+}
+
+/* MAP */
+
+.enr-class-pill{
+    color: #000;
+    background-color: #f9f19e;
+}
+.clm-class-pill{
+    color: #000;
+    background-color: #e59391;
+}
+.comm-class-pill{
+    color: #000;
+    background-color: #f3c370;
+}
+.econ-class-pill{
+    color: #000;
+    background-color: #c9b0ce;
+}
+.env-class-pill{
+    color: #000;
+    background-color: #82cac9;
+}
+.bio-class-pill{
+    color: #000;
+    background-color: #c1d992;
+}
+.land-class-pill{
+    color: #000;
+    background-color: #c8b8a0;
+}
+.res-class-pill{
+    color: #000;
+    background-color: #9fbbcf;
+}
+
+
+.tool-nav-bar{
+    background-color: #d3dee9;
+}
+
+.tool-nav{
+    color: black;
+    text-align: left;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+.tool-nav-hr{
+    color:white;
+    border-width: 3px;
+}
+
+.tool-nav-bar >a:hover{
+    margin: 5px 15px;
+    color: #000;
+}
+
+.tool-nav-bar > .on-tool> a{
+    color: #000;
+}
+
+.tool-nav-bar > .on-tool{
+    background-color: #9fbbcf;
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.map-nav{
+    background-color: #d3dee9;
+}
+
+.map-pol-div{
+    background-color: #f0f7f9;
+}
+
+.ol-viewport{
+    padding:0px;
+}
