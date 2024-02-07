@@ -1,9 +1,5 @@
-import os
-import json
-from sys import exit
 from flask import Flask
-from flask import url_for, render_template, send_file, request, redirect
-from werkzeug.utils import secure_filename
+from flask import render_template
 from flask_wtf.csrf import CSRFProtect
 
 # To run:
